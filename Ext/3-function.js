@@ -1,39 +1,26 @@
-const average = (a, b) => {    
-    return (a + b)/2;
-}
 
-//console.log(average(10,20));
+const average = (a, b) => { return (a + b )/2;}
+//console.log(average(5,11));
 
 //
 
 
 const square = x =>  x **= 2;
-console.log(square(5));
+//console.log(square(4));
 
 //
 
 const cube = x =>  x **= 3;
-console.log(cube(10));
+//console.log(cube(2));
 
 //
 
-function resultSq(square) {
-    for (var i = 0; i < square; i++) {
-        console.log(i+1);
+const total = ( ) => {
+    for (i = 0; i <=2; i++){
+        console.log(average(square(i), cube(i)));
     }
 }
-resultSq(square(2));
-
-function resultCb(cube) {
-    for (var i = 0; i < cube; i++) {
-        console.log(i + 1);
-    }
-}
-resultCb(cube(3));
-
-var a = resultSq(square(2));
-var b = resultCb(cube(3));
-
+total();
 
 
 

@@ -6,8 +6,8 @@ console.log(obj2);
 
 //
 
-obj1.name = 'change1'
-obj2.name = 'change2'
+//obj1 = {name:'change1'};  error
+obj2 = {name:'change2'};
 
 console.log(obj1);
 console.log(obj2);

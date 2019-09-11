@@ -1,10 +1,11 @@
 'use strict';
 
-var name = 'Yarik';
+let name = 'Yarik';
 const date = 1990;
 
-function show (name) {
-    console.log('Привет'  + ' ' + name);
+const greeting = (name) => {
+   console.log (` Hello ${name}`);
 }
-show(name);
-show(date);
+greeting('Yaroslav');
+greeting(name);
+greeting(date);
